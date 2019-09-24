@@ -11,7 +11,41 @@
     <table>
         <tr>
             <td id="list"></td>
-            <td id="details"></td>
+            <td id="details">
+                <div id="div-cat-name"></div>
+                <img id="img-cat-image" src="">
+                <div id="div-cat-counter"></div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button id="btnAdmin">admin</button>
+            </td>
+            <td>
+                <form id="cat-form">
+                    <table>
+                        <tr>
+                            <td>Name</td>
+                            <td><input id="cat-name" type="text"></td>
+                        </tr>
+                        <tr>
+                            <td>Click Count</td>
+                            <td><input id="cat-click-count" type="text"></td>
+                        </tr>
+                        <tr>
+                            <td>Image</td>
+                            <td><input type="text" id="cat-image"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <button id="btn-cancel">Cancel</button>
+                                <button id="btn-save">Save</button>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </td>
         </tr>
     </table>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
