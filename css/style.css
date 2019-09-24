@@ -1,0 +1,21 @@
+#list {
+    vertical-align: top;
+    padding-right: 5em;
+}
+img {
+    width: 140px;
+}
+
+#list div{
+    border: 1px solid #ccc;
+    padding: 4px 8px;
+    cursor: pointer;
+    margin: 2px;
+    background-color: #def;
+    border-radius: 4px;
+}
+
+#list div:hover {
+    background-color: steelblue;
+    color: white;
+}
